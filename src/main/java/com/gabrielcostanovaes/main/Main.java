@@ -1,9 +1,5 @@
 package com.gabrielcostanovaes.main;
 
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.gabrielcostanovaes.inicializaAPI.InicializaAPI;
-
 import java.io.IOException;
 import java.util.Scanner;
 

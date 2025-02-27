@@ -16,7 +16,7 @@ public class InicializaAPI {
     Properties prop = new Properties();
     Format format = new Format();
 
-    public String getTitle(String nomeLivro) throws IOException, InterruptedException {
+    public String getTitle(String nomeLivro) throws IOException{
 
         prop.load(new FileInputStream(".idea/config/config.properties"));
         String apiKey = prop.getProperty("apiKey");
