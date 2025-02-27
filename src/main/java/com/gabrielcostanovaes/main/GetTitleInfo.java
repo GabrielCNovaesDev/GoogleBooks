@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class GetTitleInfo extends InicializaAPI{
 
-    public String titleInfo(String titleName) throws IOException, InterruptedException {
+    public String titleInfo(String titleName) throws IOException{
         InicializaAPI inicializaAPI = new InicializaAPI();
         ObjectMapper jackson = new ObjectMapper();
 
